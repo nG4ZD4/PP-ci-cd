@@ -1,9 +1,21 @@
-# przykladowe funkcje utils .py
+"""Funkcje matematyczne"""
+
+
 def add(a: int, b: int) -> int:
-return a + b
+    """suma 2 liczb"""
+    return a + b
+
+
 def subtract(a: int, b: int) -> int:
-return a - b
+    """roznica 2 liczb"""
+    return a - b
+
+
 def multiply(a: int, b: int) -> int:
-return a * b
-def divide(a: int, b: int) -> float :
-return a / b
+    """iloczyn 2 liczb"""
+    return a * b
+
+
+def divide(a: int, b: int) -> float:
+    """iloraz 2 liczb"""
+    return a / b
